@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "lab 5",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybertilla/testing-with-jest.git"
+  },
+  "author": "Bertilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybertilla/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/cybertilla/testing-with-jest#readme"
+}
