@@ -32,3 +32,17 @@ describe('Clicking "Pusha till stacken"', () => {
 		await alert.accept();
 	});
 });
+
+//Här testar jag om vi får rätt text efter vi trycker på "Poppa stacken"
+describe('Clicking "Poppa stacken"', () => {
+	it('should open a prompt box with the right text inside', async () => {
+		let pop = await driver.findElement(By.id('push')); //FEL
+        let stack = await driver.findElement(By.id('top_of_stack')).getText();
+
+		await pop.click();
+        let alert = await driver.switchTo().alert();
+        let alertText = await alert.getText();
+        expect(alertText).toEqual("Tog bort " + stack);
+        await alert.accept();
+	});
+});
