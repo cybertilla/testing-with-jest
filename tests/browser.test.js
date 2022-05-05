@@ -36,7 +36,7 @@ describe('Clicking "Pusha till stacken"', () => {
 //Här testar jag om vi får rätt text efter vi trycker på "Poppa stacken"
 describe('Clicking "Poppa stacken"', () => {
 	it('should open a prompt box with the right text inside', async () => {
-		let pop = await driver.findElement(By.id('push')); //FEL
+		let pop = await driver.findElement(By.id('pop'));
         let stack = await driver.findElement(By.id('top_of_stack')).getText();
 
 		await pop.click();

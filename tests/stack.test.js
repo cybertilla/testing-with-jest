@@ -23,5 +23,5 @@ test('pop on a stack with three elements removes the top element', () => {
     stack.push("yay");
     stack.push("Earth C-137");
     stack.pop();
-    expect(stack.peek()).toBe("1"); //FEL
+    expect(stack.peek()).toBe("yay");
 });
