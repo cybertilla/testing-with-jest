@@ -25,6 +25,8 @@
     "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
-    "jest": "^28.0.3"
+    "geckodriver": "^3.0.1",
+    "jest": "^28.0.3",
+    "selenium-webdriver": "^4.1.2"
   }
 }
