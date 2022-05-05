@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/cybertilla/testing-with-jest#readme",
   "dependencies": {
-    "underscore": "^1.13.3"
+    "underscore": "^1.13.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
   }
 }
